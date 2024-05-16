@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carusel</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <h1>Carusel</h1>
+    <section>
+      <div class="carusel" data-carusel>
+        <div class="btns">
+          <button class="prev" data-carusel-btn="left">&#8592;</button>
+          <button class="pause" data-pause="true">&#8741;</button>
+          <button class="next" data-carusel-btn="right">&#8594;</button>
+        </div>
+
+        <ul class="list" data-slides>
+          <li class="slide" data-prev>1</li>
+          <li class="slide" data-active>2</li>
+          <li class="slide" data-next>3</li>
+          <li class="slide" >4</li>
+          <li class="slide" >5</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
